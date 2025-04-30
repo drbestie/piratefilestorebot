@@ -23,8 +23,8 @@ API_HASH = environ.get("API_HASH", "e09920a63e5f157b85a64ddba66596c6")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://keephere.ru/get/7NAjlJ_uBto/o/photo.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6005627579').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "sdvpiratefilebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
